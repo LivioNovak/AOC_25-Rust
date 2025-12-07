@@ -1,4 +1,11 @@
+use std::fs::read_to_string;
+
+// declare global constants and variables
+const INPUT_FILE : &str = "src/day-05/input";
+
 fn main() {
+    let input = read_to_string(INPUT_FILE)
+        .expect("cannot read from input_file");
 
 }
 
